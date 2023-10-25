@@ -6,9 +6,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/cloud-nuke/progressbar"
-	"github.com/gruntwork-io/cloud-nuke/report"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/cloud-nuke/progressbar"
+	"github.com/terraform-modules-krish/cloud-nuke/report"
 	"github.com/pterm/pterm"
 )
 
