@@ -8,10 +8,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/cloud-nuke/report"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/cloud-nuke/report"
+	"github.com/terraform-modules-krish/go-commons/errors"
 )
 
 func setFirstSeenTag(svc *ec2.EC2, address ec2.Address, key string, value time.Time, layout string) error {
