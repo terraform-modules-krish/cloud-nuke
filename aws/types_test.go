@@ -1,7 +1,7 @@
 package aws
 
 import (
-	"github.com/gruntwork-io/cloud-nuke/telemetry"
+	"github.com/terraform-modules-krish/cloud-nuke/telemetry"
 	"testing"
 	"time"
 
