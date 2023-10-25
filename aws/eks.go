@@ -5,9 +5,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/eks"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/gruntwork-cli/collections"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/collections"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 )
 
 // The regions that support EKS. Refer to
