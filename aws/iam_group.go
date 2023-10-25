@@ -1,16 +1,16 @@
 package aws
 
 import (
-	"github.com/gruntwork-io/cloud-nuke/report"
+	"github.com/terraform-modules-krish/cloud-nuke/report"
 	"sync"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/iam"
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	"github.com/hashicorp/go-multierror"
 )
 
