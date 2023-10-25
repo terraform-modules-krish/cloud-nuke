@@ -9,8 +9,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/eks"
 	"github.com/aws/aws-sdk-go/service/iam"
-	gruntworkerrors "github.com/gruntwork-io/gruntwork-cli/errors"
-	terraAws "github.com/gruntwork-io/terratest/modules/aws"
+	gruntworkerrors "github.com/terraform-modules-krish/gruntwork-cli/errors"
+	terraAws "github.com/terraform-modules-krish/terratest/modules/aws"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
