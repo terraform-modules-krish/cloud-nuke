@@ -2,23 +2,23 @@ package aws
 
 import (
 	"fmt"
-	"github.com/gruntwork-io/cloud-nuke/telemetry"
+	"github.com/terraform-modules-krish/cloud-nuke/telemetry"
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/go-commons/collections"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/go-commons/collections"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/secretsmanager"
-	"github.com/gruntwork-io/cloud-nuke/config"
-	terraws "github.com/gruntwork-io/terratest/modules/aws"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	terraws "github.com/terraform-modules-krish/terratest/modules/aws"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/go-commons/retry"
+	"github.com/terraform-modules-krish/go-commons/retry"
 )
 
 func TestListSecretsManagerSecrets(t *testing.T) {
