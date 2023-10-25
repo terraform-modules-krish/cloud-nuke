@@ -13,8 +13,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/ecs"
 	"github.com/aws/aws-sdk-go/service/iam"
-	"github.com/gruntwork-io/gruntwork-cli/collections"
-	gruntworkerrors "github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/collections"
+	gruntworkerrors "github.com/terraform-modules-krish/gruntwork-cli/errors"
 	"github.com/stretchr/testify/assert"
 )
 
