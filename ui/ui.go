@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/cloud-nuke/report"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/cloud-nuke/report"
 	"github.com/pterm/pterm"
 )
 
