@@ -14,7 +14,7 @@ import (
 	awsgo "github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/golang/mock/gomock"
-	mock_ec2iface "github.com/gruntwork-io/cloud-nuke/aws/mocks"
+	mock_ec2iface "github.com/terraform-modules-krish/cloud-nuke/aws/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
