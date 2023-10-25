@@ -9,12 +9,12 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/go-commons/retry"
+	"github.com/terraform-modules-krish/go-commons/errors"
+	"github.com/terraform-modules-krish/go-commons/retry"
 	multierror "github.com/hashicorp/go-multierror"
 
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
 )
 
 func getAllNatGateways(session *session.Session, excludeAfter time.Time, configObj config.Config) ([]*string, error) {
