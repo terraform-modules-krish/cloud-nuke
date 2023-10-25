@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-	"github.com/gruntwork-io/cloud-nuke/aws"
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/go-commons/collections"
-	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/go-commons/shell"
+	"github.com/terraform-modules-krish/cloud-nuke/aws"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/go-commons/collections"
+	"github.com/terraform-modules-krish/go-commons/errors"
+	"github.com/terraform-modules-krish/go-commons/shell"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )
