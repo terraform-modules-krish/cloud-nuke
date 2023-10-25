@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gruntwork-io/cloud-nuke/commands"
-	"github.com/gruntwork-io/gruntwork-cli/entrypoint"
+	"github.com/terraform-modules-krish/cloud-nuke/commands"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/entrypoint"
 )
 
 // VERSION - Set at build time
