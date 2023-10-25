@@ -2,15 +2,15 @@ package ui
 
 import (
 	"fmt"
-	"github.com/gruntwork-io/cloud-nuke/aws"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/aws"
+	"github.com/terraform-modules-krish/go-commons/errors"
 	"io"
 	"os"
 	"strings"
 
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/cloud-nuke/progressbar"
-	"github.com/gruntwork-io/cloud-nuke/report"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/cloud-nuke/progressbar"
+	"github.com/terraform-modules-krish/cloud-nuke/report"
 	"github.com/pterm/pterm"
 )
 

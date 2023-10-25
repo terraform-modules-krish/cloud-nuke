@@ -2,19 +2,19 @@ package commands
 
 import (
 	"fmt"
-	"github.com/gruntwork-io/cloud-nuke/aws"
-	"github.com/gruntwork-io/cloud-nuke/aws/resources"
-	"github.com/gruntwork-io/cloud-nuke/progressbar"
+	"github.com/terraform-modules-krish/cloud-nuke/aws"
+	"github.com/terraform-modules-krish/cloud-nuke/aws/resources"
+	"github.com/terraform-modules-krish/cloud-nuke/progressbar"
 	"os"
 	"time"
 
-	"github.com/gruntwork-io/cloud-nuke/telemetry"
-	commonTelemetry "github.com/gruntwork-io/go-commons/telemetry"
+	"github.com/terraform-modules-krish/cloud-nuke/telemetry"
+	commonTelemetry "github.com/terraform-modules-krish/go-commons/telemetry"
 
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/cloud-nuke/ui"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/cloud-nuke/ui"
+	"github.com/terraform-modules-krish/go-commons/errors"
 	"github.com/pterm/pterm"
 	"github.com/urfave/cli/v2"
 )

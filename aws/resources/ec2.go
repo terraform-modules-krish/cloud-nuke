@@ -3,10 +3,10 @@ package resources
 import (
 	"context"
 	"fmt"
-	"github.com/gruntwork-io/cloud-nuke/externalcreds"
-	"github.com/gruntwork-io/cloud-nuke/telemetry"
-	"github.com/gruntwork-io/cloud-nuke/util"
-	commonTelemetry "github.com/gruntwork-io/go-commons/telemetry"
+	"github.com/terraform-modules-krish/cloud-nuke/externalcreds"
+	"github.com/terraform-modules-krish/cloud-nuke/telemetry"
+	"github.com/terraform-modules-krish/cloud-nuke/util"
+	commonTelemetry "github.com/terraform-modules-krish/go-commons/telemetry"
 	"time"
 
 	"github.com/hashicorp/go-multierror"
@@ -16,10 +16,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/ec2/ec2iface"
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/cloud-nuke/report"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/cloud-nuke/report"
+	"github.com/terraform-modules-krish/go-commons/errors"
 )
 
 // returns only instance Ids of unprotected ec2 instances

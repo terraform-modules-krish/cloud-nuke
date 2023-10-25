@@ -3,20 +3,20 @@ package aws
 import (
 	"context"
 	"fmt"
-	"github.com/gruntwork-io/cloud-nuke/util"
+	"github.com/terraform-modules-krish/cloud-nuke/util"
 	"github.com/pterm/pterm"
 	"sort"
 	"strings"
 	"time"
 
-	commonTelemetry "github.com/gruntwork-io/go-commons/telemetry"
+	commonTelemetry "github.com/terraform-modules-krish/go-commons/telemetry"
 
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/cloud-nuke/progressbar"
-	"github.com/gruntwork-io/cloud-nuke/report"
-	"github.com/gruntwork-io/cloud-nuke/telemetry"
-	"github.com/gruntwork-io/go-commons/collections"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/cloud-nuke/progressbar"
+	"github.com/terraform-modules-krish/cloud-nuke/report"
+	"github.com/terraform-modules-krish/cloud-nuke/telemetry"
+	"github.com/terraform-modules-krish/go-commons/collections"
 )
 
 // GetAllResources - Lists all aws resources

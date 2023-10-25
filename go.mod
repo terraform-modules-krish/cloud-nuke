@@ -1,4 +1,4 @@
-module github.com/gruntwork-io/cloud-nuke
+module github.com/terraform-modules-krish/cloud-nuke
 
 go 1.21
 
@@ -6,8 +6,8 @@ require (
 	github.com/aws/aws-sdk-go v1.44.304
 	github.com/aws/aws-sdk-go-v2 v1.18.1
 	github.com/charmbracelet/lipgloss v0.6.0
-	github.com/gruntwork-io/go-commons v0.17.0
-	github.com/gruntwork-io/gruntwork-cli v0.7.0
+	github.com/terraform-modules-krish/go-commons v0.17.0
+	github.com/terraform-modules-krish/go-commons v0.7.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/pterm/pterm v0.12.45
 	github.com/sirupsen/logrus v1.8.1

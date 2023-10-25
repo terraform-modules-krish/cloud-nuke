@@ -3,12 +3,12 @@ package resources
 import (
 	"context"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/cloud-nuke/telemetry"
-	"github.com/gruntwork-io/cloud-nuke/util"
-	commonTelemetry "github.com/gruntwork-io/go-commons/telemetry"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/cloud-nuke/telemetry"
+	"github.com/terraform-modules-krish/cloud-nuke/util"
+	commonTelemetry "github.com/terraform-modules-krish/go-commons/telemetry"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 	"github.com/hashicorp/go-multierror"
 )
 

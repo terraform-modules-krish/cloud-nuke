@@ -2,7 +2,7 @@ package aws
 
 import (
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/gruntwork-io/cloud-nuke/aws/resources"
+	"github.com/terraform-modules-krish/cloud-nuke/aws/resources"
 	"reflect"
 )
 

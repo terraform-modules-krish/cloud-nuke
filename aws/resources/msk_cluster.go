@@ -3,9 +3,9 @@ package resources
 import (
 	"context"
 	"github.com/aws/aws-sdk-go/service/kafka"
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/cloud-nuke/report"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/cloud-nuke/report"
 )
 
 func (m MSKCluster) getAll(c context.Context, configObj config.Config) ([]*string, error) {

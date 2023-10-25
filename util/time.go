@@ -2,8 +2,8 @@ package util
 
 import (
 	"github.com/aws/aws-sdk-go/aws"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/go-commons/errors"
 	"time"
 )
 

@@ -1,12 +1,12 @@
 package commands
 
 import (
-	"github.com/gruntwork-io/cloud-nuke/aws"
-	"github.com/gruntwork-io/cloud-nuke/aws/resources"
+	"github.com/terraform-modules-krish/cloud-nuke/aws"
+	"github.com/terraform-modules-krish/cloud-nuke/aws/resources"
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/go-commons/errors"
 	"github.com/stretchr/testify/assert"
 )
 

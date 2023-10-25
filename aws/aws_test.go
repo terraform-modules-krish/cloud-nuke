@@ -1,8 +1,8 @@
 package aws
 
 import (
-	"github.com/gruntwork-io/cloud-nuke/telemetry"
-	"github.com/gruntwork-io/cloud-nuke/util"
+	"github.com/terraform-modules-krish/cloud-nuke/telemetry"
+	"github.com/terraform-modules-krish/cloud-nuke/util"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

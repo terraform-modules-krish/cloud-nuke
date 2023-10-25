@@ -1,7 +1,7 @@
 package aws
 
 import (
-	"github.com/gruntwork-io/go-commons/collections"
+	"github.com/terraform-modules-krish/go-commons/collections"
 )
 
 func ensureValidResourceTypes(resourceTypes []string) ([]string, error) {
