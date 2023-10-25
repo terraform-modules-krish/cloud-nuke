@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gruntwork-io/gruntwork-cli/collections"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/collections"
 
 	"github.com/fatih/color"
 	"github.com/gruntwork-io/aws-nuke/aws"
 	"github.com/gruntwork-io/aws-nuke/logging"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
-	"github.com/gruntwork-io/gruntwork-cli/shell"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/shell"
 	"github.com/urfave/cli"
 )
 
