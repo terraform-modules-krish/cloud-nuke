@@ -8,8 +8,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 )
 
 func sleepWithMessage(duration time.Duration, whySleepMessage string) {

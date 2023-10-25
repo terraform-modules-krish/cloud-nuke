@@ -11,8 +11,8 @@ import (
 	awsgo "github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/cloud-nuke/util"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/util"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 )
 
 func createTestTransitGateway(t *testing.T, session *session.Session, name string) ec2.TransitGateway {
