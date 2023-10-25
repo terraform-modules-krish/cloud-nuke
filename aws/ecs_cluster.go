@@ -7,9 +7,9 @@ import (
 	awsgo "github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ecs"
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/go-commons/errors"
 )
 
 // Used in this context to determine if the ECS Cluster is ready to be used & tagged
