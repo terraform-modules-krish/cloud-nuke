@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/elbv2"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/go-commons/errors"
 )
 
 // Returns a formatted string of ELBv2 Arns
