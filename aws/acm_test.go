@@ -12,7 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/acm"
-	"github.com/gruntwork-io/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
 )
 
 func createHTTPListenerFromListCertificatesOutput(t *testing.T, listCertificatesOutput *acm.ListCertificatesOutput, responseCode int) *httptest.Server {

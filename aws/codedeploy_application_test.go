@@ -10,8 +10,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/codedeploy"
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/terratest/modules/random"
 )
 
 func createSession(region string) (*session.Session, error) {
