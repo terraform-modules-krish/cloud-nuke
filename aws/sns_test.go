@@ -3,7 +3,7 @@ package aws
 import (
 	"context"
 	"fmt"
-	"github.com/gruntwork-io/cloud-nuke/telemetry"
+	"github.com/terraform-modules-krish/cloud-nuke/telemetry"
 	"math/rand"
 	"testing"
 	"time"
@@ -13,9 +13,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	awsgo "github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/cloud-nuke/util"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/util"
+	"github.com/terraform-modules-krish/go-commons/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
