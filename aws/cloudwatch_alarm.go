@@ -2,14 +2,14 @@ package aws
 
 import (
 	"github.com/aws/aws-sdk-go/aws"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/cloud-nuke/report"
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/cloud-nuke/report"
+	"github.com/terraform-modules-krish/go-commons/errors"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
-	"github.com/gruntwork-io/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
 )
 
 func getAllCloudWatchAlarms(session *session.Session, excludeAfter time.Time, configObj config.Config) ([]*string, error) {
