@@ -3,7 +3,7 @@ package aws
 import (
 	"testing"
 
-	terratestaws "github.com/gruntwork-io/terratest/modules/aws"
+	terratestaws "github.com/terraform-modules-krish/terratest/modules/aws"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"

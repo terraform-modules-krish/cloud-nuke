@@ -3,14 +3,14 @@ package aws
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/codedeploy/codedeployiface"
-	"github.com/gruntwork-io/cloud-nuke/telemetry"
+	"github.com/terraform-modules-krish/cloud-nuke/telemetry"
 	"github.com/stretchr/testify/require"
 	"regexp"
 	"testing"
 	"time"
 
 	"github.com/aws/aws-sdk-go/service/codedeploy"
-	"github.com/gruntwork-io/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
 )
 
 type mockedCodeDeployApplications struct {

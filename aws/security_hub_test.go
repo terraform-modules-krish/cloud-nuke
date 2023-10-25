@@ -2,13 +2,13 @@ package aws
 
 import (
 	"github.com/aws/aws-sdk-go/service/securityhub/securityhubiface"
-	"github.com/gruntwork-io/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
 	"testing"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/securityhub"
-	"github.com/gruntwork-io/cloud-nuke/telemetry"
+	"github.com/terraform-modules-krish/cloud-nuke/telemetry"
 	"github.com/stretchr/testify/require"
 )
 

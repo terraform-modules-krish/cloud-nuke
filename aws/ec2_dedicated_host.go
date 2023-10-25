@@ -5,12 +5,12 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	awsgo "github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/cloud-nuke/config"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/cloud-nuke/report"
-	"github.com/gruntwork-io/cloud-nuke/telemetry"
-	"github.com/gruntwork-io/go-commons/errors"
-	commonTelemetry "github.com/gruntwork-io/go-commons/telemetry"
+	"github.com/terraform-modules-krish/cloud-nuke/config"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/cloud-nuke/report"
+	"github.com/terraform-modules-krish/cloud-nuke/telemetry"
+	"github.com/terraform-modules-krish/go-commons/errors"
+	commonTelemetry "github.com/terraform-modules-krish/go-commons/telemetry"
 )
 
 func (h EC2DedicatedHosts) getAll(configObj config.Config) ([]*string, error) {
