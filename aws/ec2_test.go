@@ -8,8 +8,8 @@ import (
 	awsgo "github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/cloud-nuke/util"
-	gruntworkerrors "github.com/gruntwork-io/gruntwork-cli/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/util"
+	gruntworkerrors "github.com/terraform-modules-krish/gruntwork-cli/errors"
 	"github.com/stretchr/testify/assert"
 )
 
