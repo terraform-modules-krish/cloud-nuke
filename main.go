@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/gruntwork-io/aws-nuke/commands"
-	"github.com/gruntwork-io/gruntwork-cli/entrypoint"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/entrypoint"
 )
 
 // VERSION - Set at build time
