@@ -6,7 +6,7 @@ import (
 	awsgo "github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/iam"
-	gruntworkerrors "github.com/gruntwork-io/gruntwork-cli/errors"
+	gruntworkerrors "github.com/terraform-modules-krish/gruntwork-cli/errors"
 	"github.com/stretchr/testify/assert"
 )
 
