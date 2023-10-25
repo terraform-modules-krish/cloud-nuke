@@ -4,13 +4,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/go-commons/retry"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	"github.com/terraform-modules-krish/go-commons/retry"
 
 	awsgo "github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	"github.com/gruntwork-io/cloud-nuke/util"
+	"github.com/terraform-modules-krish/cloud-nuke/util"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
