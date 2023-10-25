@@ -6,8 +6,8 @@ import (
 	awsgo "github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/rds"
-	"github.com/gruntwork-io/cloud-nuke/logging"
-	"github.com/gruntwork-io/gruntwork-cli/errors"
+	"github.com/terraform-modules-krish/cloud-nuke/logging"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/errors"
 )
 
 func getAllRdsInstances(session *session.Session, excludeAfter time.Time) ([]*string, error) {
